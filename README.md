@@ -1,4 +1,4 @@
-# Dungeon-dj
+# Dungeon DJ
 
 This is a music management tool for tabletop role-playing games.
 Designed for use with the foobar2000 media player due to the fade in/out functionality and nice cmd features.
