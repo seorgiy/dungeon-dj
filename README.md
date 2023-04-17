@@ -67,6 +67,6 @@ Actually I made it for my custom keyboard so you may also like this idea. With s
 ## Credits
 These people are real titans, on whose shoulders I modestly stand  
 
-foobar2000 developers  
-Autohotkeys developers  
+[foobar2000](https://www.foobar2000.org/) developers  
+[Autohotkey](https://www.autohotkey.com/foundation/) developers  
 [Pleasant Notify library](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=6056) author
