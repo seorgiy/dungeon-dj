@@ -54,7 +54,7 @@ foobar is such a great thing due to possibility of mixing local files and youtub
 1. Download [component](https://fy.3dyd.com/download/). For me version `foo_youtube_3.9_beta2` works fine.
 2. Open foobar → File →  Preferences → Components → Install → dowloaded file.
 
-Now you go View → Youtube Source → Search on Site → type something like «ambient music» → add it to currrent playlist with smooth fade in effect!
+Now you go View → Youtube Source → Search on Site → type something like «ambient music» → click it to start music with smooth fade in effect!  
 But even on top of that you may **save youtube video link as a file**! 
 Just right click on video → foobar2000 → File Operations → Copy to → choose your DungeonDJ music subfolder. Name track as you want but you need to add `.foo_youtube` extension in the end.
 
