@@ -30,7 +30,7 @@ Recomended for the best experience.
 
 ## More fun
 
-Actually I made it for use with custom keyboard so you may also like this idea. Using some [VIA](https://www.caniusevia.com/) or [Vial](https://get.vial.today/) you can become the real Dungeon DJ. Personally, I use DOIO KB16-01:
+Actually I made it for my custom keyboard so you may also like this idea. With some [VIA](https://www.caniusevia.com/) or [Vial](https://get.vial.today/) you can become the real Dungeon DJ. Personally, I use DOIO KB16-01:
 
 ![image](https://user-images.githubusercontent.com/44596276/232434304-dbe02390-e56d-4983-bab5-0b2229a4dff7.png)
 
