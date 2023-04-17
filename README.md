@@ -12,7 +12,7 @@ For Windows use only.
 3. Install foobar to `/foobar` folder or specify path to .exe in the `config.ini` file. Portable installation is completly fine, but don't forget to set some settings
 4. Put your music in the `/music` subfolders and name that folders whatever you like. The first letter of the name of each folder stands for the key that you need to press to play music from that folder. Examples included.
 5. Run `play.exe`, don't mind Windows Defender. It dislikes autohotkeys scripts. 
-6. Press Alt and chosen Key for music
+6. Press `Alt` and chosen Key for music
 
 ## Foobar settings
 Recomended for the best experience.
