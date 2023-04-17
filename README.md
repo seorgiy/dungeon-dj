@@ -9,7 +9,7 @@ For Windows use only.
 
 1. Download [DungeonDJ](https://github.com/seorgiy/dungeon-dj/releases), unzip it
 2. Download [foobar2000](https://www.foobar2000.org/download)
-3. Install foobar to `/foobar` folder or specify path to .exe in the `config.ini` file. Portable installation is completly fine, but don't forget to set some settings
+3. Install foobar to `/foobar2000` folder or specify path to .exe in the `config.ini` file. Portable installation is completly fine, but don't forget to set some settings
 4. Put your music in the `/music` subfolders and name that folders whatever you like. The first letter of the name of each folder stands for the key that you need to press to play music from that folder. Examples included.
 5. Run `play.exe`, don't mind Windows Defender. It dislikes autohotkeys scripts. 
 6. Press `Alt` and chosen Key for music
@@ -19,6 +19,7 @@ Recomended for the best experience.
 
 * File > Preferences > Playback > Output > Fading > check «Enable smooth seeking...» & set «Manual track change» slider to whatever your like, 4000ms recomended
 * File > Preferences > Shell Integration > turn off «Bring to front when adding new files» if you want foobar to stay hidden during Dungeons track changes
+* Playback > Order > set «Random» if you want to run music from folder in random order
 
 ## Options
 
