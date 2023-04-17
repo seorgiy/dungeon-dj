@@ -1,11 +1,11 @@
 # Dungeon DJ
 
 This is a music management tool for tabletop role-playing games.  
-Designed for use with the foobar2000 media player due to the fade in/out functionality and nice cmd features.
+Designed for use with the foobar2000 media player due to the fade in/out functionality and nice features.
 
 ## Description
 
-Basically you just play your playlists for the game situations via hotkeys. Like press B for Battle music, press T for Tavern and so on. The player stays hidden and don't bother your small laptop screen. Also the fade in/out foobars function works like a charm. 
+Basically you just play your playlists for the game situations via hotkeys. Like press B for Battle music, press T for Tavern and so on. The player stays hidden and don't bother your small laptop screen. Music can be stored as audio files or youtube-links. Also the fade in/out foobars function works like a charm. 
 
 For Windows use only.
 
@@ -17,14 +17,32 @@ For Windows use only.
 4. Put your music in the `/music` subfolders and name that folders whatever you like. The first letter of the name of each folder stands for a key that you need to press to play music from that folder. Examples included.
 5. Run `play.exe`, don't mind Windows Defender. It dislikes autohotkeys scripts. 
 6. Press `Alt` and the chosen Key for music
+7. **Optional.** Check out recommended [Foobar settings](#foobar-settings) for the best experience.
+7. **Optional.** Install Foobar youtube-component if you want to add music from the Youtube videos.
 
 ## Foobar settings
-Recomended for the best experience.
 
-* File > Preferences > Playback > Output > Fading > check «Enable smooth seeking...» & set «Manual track change» slider to whatever your like, 4000ms recomended. That makes music changes like in videogames, so nice and smooth 🤙
-* File > Preferences > Display > Default User Interface > Background and Notifications > turn on «Minimize hides, close exits» if you want to minimize foobar
-* File > Preferences > Shell Integration > turn off «Bring to front when adding new files» if you want foobar to stay hidden during Dungeons track changes
-* Playback > Order > set «Random» if you want to run music from folder in random order
+* File → Preferences → Playback → Output → Fading → check «Enable smooth seeking...» & set «Manual track change» slider to whatever your like, 4000ms recommended. That makes music changes like in videogames, so nice and smooth 🤙
+* File → Preferences → Display → Default User Interface → Background and Notifications → turn on «Minimize hides, close exits» if you want to minimize foobar
+* File → Preferences → Shell Integration → turn off «Bring to front when adding new files» if you want foobar to stay hidden during Dungeons track changes
+* Playback → Order → set «Random» if you want to run music from folder in random order
+
+## Music from Youtube
+Foobar is such a great thing due to possibility of mixing local files and youtube videos in one playlist. Lets do this.
+
+1. Download [component](https://fy.3dyd.com/download/). For me version `foo_youtube_3.9_beta2` works fine.
+2. Open Foobar → File →  Preferences → Components → Install → dowloaded file.
+
+Now you may go View → Youtube Source → Search on Site → type something like «ambient music» → add it to currrent playlist with smooth fade in effect!
+But even on top of that you may ***save youtube video link as a file***. 
+Just right click on video → foobar2000 → File Operations → Copy to → choose your DungeonDJ music subfolder. Name tarck as you want but you need to add `.foo_youtube` extension in the end.
+
+<details>
+ <summary>Screenshots</summary>
+![image](https://user-images.githubusercontent.com/44596276/232573209-73467f59-fba9-4543-816e-ec4e7c42ad71.png)
+![image](https://user-images.githubusercontent.com/44596276/232573810-c3f5fbd2-997b-46f2-a404-af6c1abbd1d3.png)
+</details>
+
 
 ## Options
 
