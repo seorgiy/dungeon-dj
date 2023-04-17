@@ -1,3 +1,5 @@
+[На русском](https://github.com/seorgiy/dungeon-dj/blob/main/README-ru.md) :point_left:
+
 # Dungeon DJ
 
 This is a music management tool for tabletop role-playing games.  
