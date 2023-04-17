@@ -39,6 +39,8 @@ Alt + 3 → show/hide player
 Alt + Y → show youtube video search (only if you downloaded foobar with DungeonDJ. Otherwise, you need to enable this hotkey in settings)
 
 ## foobar settings
+> **Note**
+> If you downloaded foobar with DungeonDJ — this settings already apllied.
 
 * File → Preferences → Playback → Output → Fading → check «Enable smooth seeking...» & set «Manual track change» slider to whatever your like, 4000ms recommended. That makes music changes like in videogames, so nice and smooth 🤙
 * File → Preferences → Display → Default User Interface → Background and Notifications → turn on «Minimize hides, close exits» if you want to minimize foobar
