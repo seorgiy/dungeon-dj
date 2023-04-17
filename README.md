@@ -29,7 +29,7 @@ For Windows use only.
 * File → Preferences → Keyboard Shortcuts → Add new → set hotkey for View/Youtube Source/Search on Site action if you want to fast access to this brilliant function
 
 ## Music from Youtube
-foobar is such a great thing due to possibility of mixing local files and youtube videos in one playlist. Lets do this.
+foobar is such a great thing due to possibility of mixing local files and youtube videos in one playlist. Give it a try!
 
 1. Download [component](https://fy.3dyd.com/download/). For me version `foo_youtube_3.9_beta2` works fine.
 2. Open foobar → File →  Preferences → Components → Install → dowloaded file.
