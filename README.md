@@ -20,6 +20,11 @@ For Windows use only.
 7. **Optional.** Install foobar youtube-component if you want to add music from the Youtube videos.
 8. **Optional.** Check out recommended [foobar settings](#foobar-settings) for the best experience.
 
+## Additional hotkeys
+Alt + 1 → play/pause
+Alt + 2 → play next track in the current playlist
+Alt + 3 → show/hide player
+
 ## foobar settings
 
 * File → Preferences → Playback → Output → Fading → check «Enable smooth seeking...» & set «Manual track change» slider to whatever your like, 4000ms recommended. That makes music changes like in videogames, so nice and smooth 🤙
