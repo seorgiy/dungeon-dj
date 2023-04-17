@@ -21,8 +21,9 @@ For Windows use only.
 8. **Optional.** Check out recommended [foobar settings](#foobar-settings) for the best experience.
 
 ## Additional hotkeys
-Alt + 1 → play/pause
-Alt + 2 → play next track in the current playlist
+
+Alt + 1 → play/pause  
+Alt + 2 → play next track in the current playlist  
 Alt + 3 → show/hide player
 
 ## foobar settings
