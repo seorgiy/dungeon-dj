@@ -35,7 +35,7 @@ For Windows use only.
 
 Alt + 1 → play/pause  
 Alt + 2 → play next track in the current playlist  
-Alt + 3 → show/hide player
+Alt + 3 → show/hide player  
 Alt + Y → show youtube video search (only if you downloaded foobar with DungeonDJ. Otherwise, you need to enable this hotkey in settings)
 
 ## foobar settings
