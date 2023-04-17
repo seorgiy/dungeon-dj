@@ -23,7 +23,7 @@ For Windows use only.
 
 1. Download [DungeonDJ without foobar](https://github.com/seorgiy/dungeon-dj/releases), unzip it
 2. Download [foobar2000](https://www.foobar2000.org/download)
-3. Install foobar to `/foobar2000` folder or specify path to .exe in the `config.ini` file. 
+3. Install foobar to `DungeonDJ/foobar2000` folder or specify path to .exe in the `config.ini` file. 
 4. Put your music in the `/music` subfolders and name that folders whatever you like. The first letter of the name of each folder stands for a key that you need to press to play music from that folder. Examples included.
 5. Run `play.exe`, don't mind Windows Defender. It dislikes autohotkeys scripts. 
 6. Press `Alt` and the chosen Key for music
