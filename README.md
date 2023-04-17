@@ -3,6 +3,10 @@
 This is a music management tool for tabletop role-playing games.  
 Designed for use with the foobar2000 media player due to the fade in/out functionality and nice cmd features.
 
+## Description
+
+Basically you just play your playlists for the game situations via hotkeys. Like press B for Battle music, press T for Tavern and so on. The player stays hidden and don't bother your small laptop screen. Also the fade in/out foobars function works like a charm. 
+
 For Windows use only.
 
 ## How to use
