@@ -18,6 +18,7 @@ For Windows use only.
 Recomended for the best experience.
 
 * File > Preferences > Playback > Output > Fading > check «Enable smooth seeking...» & set «Manual track change» slider to whatever your like, 4000ms recomended. That makes music changes like in videogames, so nice and smooth 🤙
+* File > Preferences > Display > Default User Interface > Background and Notifications > turn on «Minimize hides, close exits» if you want to hide foobar from task bar
 * File > Preferences > Shell Integration > turn off «Bring to front when adding new files» if you want foobar to stay hidden during Dungeons track changes
 * Playback > Order > set «Random» if you want to run music from folder in random order
 
