@@ -1,4 +1,4 @@
-#NoEnv
+п»ї#NoEnv
 #SingleInstance force
 Menu, tray, Tip, Dungeon DJ
 SendMode Input
@@ -38,10 +38,11 @@ Hotkey, %main_hotkey% & 1, PlayPauseMusic, pressed, On
 Hotkey, %main_hotkey% & 2, NextTrack, pressed, On
 Hotkey, %main_hotkey% & 3, ShowHidePlayer, pressed, On
 
-; Set all hotkeys as main_hotkey + Key
-Keys := [ "q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d", "f", "g", "h", "j", "k", "l", "z", "x", "c", "v", "b", "n", "m" ]
-for index, element in Keys {
-    Hotkey, %main_hotkey% & %element%, RunPlaylist, pressed, On
+; Set all folders calls as main_hotkey + Key
+for index, element in all_folders
+  {
+    key := SubStr(element, 1, 1)
+    Hotkey, %main_hotkey% & %key%, RunPlaylist, pressed, On
   }
 Return
 
@@ -76,7 +77,7 @@ RunPlaylist:
       Return
     }
   if (notifications = "on")
-    text := language = "ru" ? "Теперь играет: " : "Now playing: "
+    text := language = "ru" ? "РўРµРїРµСЂСЊ РёРіСЂР°РµС‚: " : "Now playing: "
     PleasantNotify(text, playlist_name, 300, 90, "b r", "3") 
 Return
 
