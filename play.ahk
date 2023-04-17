@@ -68,7 +68,13 @@ RunPlaylist:
   StringSplit, key_array, A_ThisHotkey, &
   playlist := getFolderByKey(all_folders, Trim(key_array2))
   playlist_name := SubStr(playlist, 2)
-  Run, %foobar% "%A_WorkingDir%\music\%playlist%"
+  try  ; Attempts to execute code.
+    Run, %foobar% "%A_WorkingDir%\music\%playlist%"
+  catch e  ; Handles the first error/exception raised by the block above.
+    {
+      MsgBox, Can't find foobar. Check path to .exe in config.ini
+      Return
+    }
   if (notifications = "on")
     text := language = "ru" ? "Теперь играет: " : "Now playing: "
     PleasantNotify(text, playlist_name, 300, 90, "b r", "3") 
