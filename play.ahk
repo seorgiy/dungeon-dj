@@ -7,7 +7,9 @@ version := "1.0"
 
 ; Reading config
 IniRead, foobar, %A_WorkingDir%\config.ini, main, player_exe_path
-IniRead, norifications, %A_WorkingDir%\config.ini, main, notifications
+IniRead, language, %A_WorkingDir%\config.ini, main, language
+IniRead, notifications, %A_WorkingDir%\config.ini, main, notifications
+IniRead, main_hotkey, %A_WorkingDir%\config.ini, main, main_hotkey
 
 ; GUI
 Gui -Caption +AlwaysOnTop
@@ -17,7 +19,7 @@ Gui, Add, Text, x20 y10  BackgroundTrans, Dungeon DJ
 Gui, font, s8.2 c666666 q5, Rubik
 Gui, Add, Text, x20 y40 BackgroundTrans, ver: %version%
 Gui, font, s9.7 c666666 q5, Rubik
-Gui, Add, Text, x370 y296 BackgroundTrans, by @seorgiy
+Gui, Add, Text, x390 y296 BackgroundTrans, @seorgiy
 Gui, Show, w480 h320
 Sleep 2000
 Gui, Hide
@@ -32,14 +34,14 @@ Loop, Files, % music_folder "\*", D
 all_folders.Push(A_LoopFileName)
 
 ; Foobar2000 separate commands
-Hotkey, RAlt & 1, PlayPauseMusic, pressed, On
-Hotkey, RAlt & 2, NextTrack, pressed, On
-Hotkey, RAlt & 3, ShowHidePlayer, pressed, On
+Hotkey, %main_hotkey% & 1, PlayPauseMusic, pressed, On
+Hotkey, %main_hotkey% & 2, NextTrack, pressed, On
+Hotkey, %main_hotkey% & 3, ShowHidePlayer, pressed, On
 
-; Set all hotkeys as RAlt+Key
+; Set all hotkeys as main_hotkey + Key
 Keys := [ "q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d", "f", "g", "h", "j", "k", "l", "z", "x", "c", "v", "b", "n", "m" ]
 for index, element in Keys {
-    Hotkey, RAlt & %element%, RunPlaylist, pressed, On
+    Hotkey, %main_hotkey% & %element%, RunPlaylist, pressed, On
   }
 Return
 
@@ -63,11 +65,13 @@ NextTrack:
 Return
 
 RunPlaylist:
-  playlist := getFolderByKey(all_folders, SubStr(A_ThisHotkey, 8))
+  StringSplit, key_array, A_ThisHotkey, &
+  playlist := getFolderByKey(all_folders, Trim(key_array2))
   playlist_name := SubStr(playlist, 2)
   Run, %foobar% "%A_WorkingDir%\music\%playlist%"
-  if (norifications = "on")
-  PleasantNotify("Now playing:", playlist_name, 300, 90, "b r", "3") 
+  if (notifications = "on")
+    text := language = "ru" ? "Теперь играет: " : "Now playing: "
+    PleasantNotify(text, playlist_name, 300, 90, "b r", "3") 
 Return
 
 getFolderByKey(all_folders, key){
