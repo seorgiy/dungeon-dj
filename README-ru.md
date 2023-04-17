@@ -65,5 +65,12 @@ foobar отличная штука, потому что позволяет см�
 
 ![image](https://user-images.githubusercontent.com/44596276/232434304-dbe02390-e56d-4983-bab5-0b2229a4dff7.png)
 
-## Спасибки
-[Pleasant Notify library](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=6056)
+## Спасибо
+
+## Credits
+Эти люди — настоящие титаны, на чьих плечах я скромно стою.  
+
+Разработчики [foobar2000](https://www.foobar2000.org/)  
+Разработчики [Autohotkey](https://www.autohotkey.com/foundation/)  
+Автор [Pleasant Notify library](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=6056)
+
