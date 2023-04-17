@@ -15,7 +15,8 @@ For Windows use only.
 
 1. Download [DungeonDJ with foobar included](https://github.com/seorgiy/dungeon-dj/releases), unzip it
 2. Put your music in the `/music` subfolders and name that folders whatever you like. The first letter of the name of each folder stands for a key that you need to press to play music from that folder. Examples included.
-3. Press `Alt` and the chosen Key for music
+3. Run `play.exe`, don't mind Windows Defender. It dislikes autohotkeys scripts. 
+4. Press `Alt` and the chosen Key for music
 
 <details>
 <summary>If you want to install and setup foobar on your own</summary>
