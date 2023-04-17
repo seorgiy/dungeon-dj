@@ -24,6 +24,7 @@ Recomended for the best experience.
 
 * You may turn off the now-playing notifications in the config.ini file.
 * Change language between en or ru. Impact only notifications for now :wink:
+* Change key for the combination if you don't like `Alt`. Use ahk [codes](https://www.autohotkey.com/docs/v1/KeyList.htm#modifier)
 
 
 ## Credits
