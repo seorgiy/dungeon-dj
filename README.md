@@ -13,7 +13,14 @@ For Windows use only.
 
 ## How to use
 
-1. Download [DungeonDJ](https://github.com/seorgiy/dungeon-dj/releases), unzip it
+1. Download [DungeonDJ with foobar included](https://github.com/seorgiy/dungeon-dj/releases), unzip it
+2. Put your music in the `/music` subfolders and name that folders whatever you like. The first letter of the name of each folder stands for a key that you need to press to play music from that folder. Examples included.
+3. Press `Alt` and the chosen Key for music
+
+<details>
+<summary>If you want to install and setup foobar on your own</summary>
+
+1. Download [DungeonDJ without foobar](https://github.com/seorgiy/dungeon-dj/releases), unzip it
 2. Download [foobar2000](https://www.foobar2000.org/download)
 3. Install foobar to `/foobar2000` folder or specify path to .exe in the `config.ini` file. 
 4. Put your music in the `/music` subfolders and name that folders whatever you like. The first letter of the name of each folder stands for a key that you need to press to play music from that folder. Examples included.
@@ -21,6 +28,7 @@ For Windows use only.
 6. Press `Alt` and the chosen Key for music
 7. **Optional.** Install foobar youtube-component if you want to add music from the Youtube videos.
 8. **Optional.** Check out recommended [foobar settings](#foobar-settings) for the best experience.
+</details>
 
 ## Additional hotkeys
 
