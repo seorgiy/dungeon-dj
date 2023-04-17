@@ -65,8 +65,8 @@ Actually I made it for my custom keyboard so you may also like this idea. With s
 ![image](https://user-images.githubusercontent.com/44596276/232434304-dbe02390-e56d-4983-bab5-0b2229a4dff7.png)
 
 ## Credits
-These people are real titans, on whose shoulders I modestly stand 
+These people are real titans, on whose shoulders I modestly stand  
 
-foobar2000 developers
-Autohotkeys developers
+foobar2000 developers  
+Autohotkeys developers  
 [Pleasant Notify library](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=6056) author
