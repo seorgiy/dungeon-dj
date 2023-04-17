@@ -17,32 +17,32 @@ For Windows use only.
 4. Put your music in the `/music` subfolders and name that folders whatever you like. The first letter of the name of each folder stands for a key that you need to press to play music from that folder. Examples included.
 5. Run `play.exe`, don't mind Windows Defender. It dislikes autohotkeys scripts. 
 6. Press `Alt` and the chosen Key for music
-7. **Optional.** Check out recommended [Foobar settings](#foobar-settings) for the best experience.
-7. **Optional.** Install Foobar youtube-component if you want to add music from the Youtube videos.
+7. **Optional.** Install foobar youtube-component if you want to add music from the Youtube videos.
+8. **Optional.** Check out recommended [foobar settings](#foobar-settings) for the best experience.
 
-## Foobar settings
+## foobar settings
 
 * File → Preferences → Playback → Output → Fading → check «Enable smooth seeking...» & set «Manual track change» slider to whatever your like, 4000ms recommended. That makes music changes like in videogames, so nice and smooth 🤙
 * File → Preferences → Display → Default User Interface → Background and Notifications → turn on «Minimize hides, close exits» if you want to minimize foobar
 * File → Preferences → Shell Integration → turn off «Bring to front when adding new files» if you want foobar to stay hidden during Dungeons track changes
 * Playback → Order → set «Random» if you want to run music from folder in random order
+* File → Preferences → Keyboard Shortcuts → Add new → set hotkey for View/Youtube Source/Search on Site action if you want to fast access to this brilliant function
 
 ## Music from Youtube
-Foobar is such a great thing due to possibility of mixing local files and youtube videos in one playlist. Lets do this.
+foobar is such a great thing due to possibility of mixing local files and youtube videos in one playlist. Lets do this.
 
 1. Download [component](https://fy.3dyd.com/download/). For me version `foo_youtube_3.9_beta2` works fine.
-2. Open Foobar → File →  Preferences → Components → Install → dowloaded file.
+2. Open foobar → File →  Preferences → Components → Install → dowloaded file.
 
-Now you may go View → Youtube Source → Search on Site → type something like «ambient music» → add it to currrent playlist with smooth fade in effect!
-But even on top of that you may ***save youtube video link as a file***. 
-Just right click on video → foobar2000 → File Operations → Copy to → choose your DungeonDJ music subfolder. Name tarck as you want but you need to add `.foo_youtube` extension in the end.
+Now you go View → Youtube Source → Search on Site → type something like «ambient music» → add it to currrent playlist with smooth fade in effect!
+But even on top of that you may **save youtube video link as a file**! 
+Just right click on video → foobar2000 → File Operations → Copy to → choose your DungeonDJ music subfolder. Name track as you want but you need to add `.foo_youtube` extension in the end.
 
 <details>
- <summary>Screenshots</summary>
-![image](https://user-images.githubusercontent.com/44596276/232573209-73467f59-fba9-4543-816e-ec4e7c42ad71.png)
-![image](https://user-images.githubusercontent.com/44596276/232573810-c3f5fbd2-997b-46f2-a404-af6c1abbd1d3.png)
+<summary>Screenshots</summary>
+<img src="https://user-images.githubusercontent.com/44596276/232573209-73467f59-fba9-4543-816e-ec4e7c42ad71.png" alt= “” width="500">
+<img src="https://user-images.githubusercontent.com/44596276/232573810-c3f5fbd2-997b-46f2-a404-af6c1abbd1d3.png" alt= “” width="500">
 </details>
-
 
 ## Options
 
