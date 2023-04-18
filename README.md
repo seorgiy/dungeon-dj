@@ -82,4 +82,4 @@ These people are real titans, on whose shoulders I modestly stand.
 [foobar2000](https://www.foobar2000.org/) developers   
 [Autohotkey](https://www.autohotkey.com/foundation/) developers    
 
-Also author of great [Pleasant Notify library](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=6056) 
+Also authors of great [Pleasant Notify library](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=6056) 
