@@ -83,5 +83,5 @@ foobar отличная штука, потому что позволяет см�
 Разработчики [foobar2000](https://www.foobar2000.org/)  
 Разработчики [Autohotkey](https://www.autohotkey.com/foundation/) 
  
-А также автор прекрасной библиотеки для уведомлений [Pleasant Notify library](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=6056)
+А также авторы прекрасной библиотеки для уведомлений [Pleasant Notify library](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=6056)
 
