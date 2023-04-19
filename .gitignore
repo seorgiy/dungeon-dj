@@ -4,3 +4,4 @@ play.exe
 *.zip
 /music/**/*.mp3
 test
+releases

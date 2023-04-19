@@ -3,7 +3,7 @@
 Menu, tray, Tip, Dungeon DJ
 SendMode Input
 
-version := "1.0"
+version := "1.1"
 
 ; Reading config
 IniRead, foobar, %A_WorkingDir%\config.ini, main, player_exe_path
@@ -37,6 +37,7 @@ all_folders.Push(A_LoopFileName)
 Hotkey, %main_hotkey% & 1, PlayPauseMusic, pressed, On
 Hotkey, %main_hotkey% & 2, NextTrack, pressed, On
 Hotkey, %main_hotkey% & 3, ShowHidePlayer, pressed, On
+Hotkey, %main_hotkey% & 4, ShowCheatSheet, pressed, On
 
 ; Set all folders calls as main_hotkey + Key
 for index, element in all_folders
@@ -48,6 +49,17 @@ Return
 
 PlayPauseMusic:
   Run, %foobar% /playpause
+Return
+
+ShowCheatSheet:
+ str := "Подсказка:`n`n"
+ for index, element in all_folders {
+  full_str := StrSplit(element, A_Space, ,2 )
+  key := full_str.1
+  folder := full_str.2
+  str = %str% %main_hotkey%+%key% — %folder%`n
+ }
+  MsgBox, % str
 Return
 
 ShowHidePlayer:
@@ -95,7 +107,7 @@ PleasantNotify(title, message, pnW=700, pnH=300, position="b r", time=10) {
   PN_hwnd := WinExist()
   WinSet, ExStyle, +0x20
   WinSet, Transparent, 0
-  Gui, Notify: Color, 0xF2F2F0
+  Gui, Notify: Color, 0xF0F0F0
   Gui, Notify: Font, cce0000 s17 wBold, Rubik
   Gui, Notify: Add, Text, % " x" 20 " y" 10 " w" pnW-20 " vpn_title", % title
   Gui, Notify: Font, c666666 s15 wRegular
