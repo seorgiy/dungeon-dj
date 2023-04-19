@@ -1,3 +1,5 @@
+[На русском](https://github.com/seorgiy/dungeon-dj/blob/main/README-ru.md) :point_left:
+
 # Dungeon DJ
 
 This is a music management tool for tabletop role-playing games.  
@@ -11,16 +13,34 @@ For Windows use only.
 
 ## How to use
 
-1. Download [DungeonDJ](https://github.com/seorgiy/dungeon-dj/releases), unzip it
+1. Download [DungeonDJ with foobar included](https://github.com/seorgiy/dungeon-dj/releases), unzip it
+2. Put your music in the `/music` subfolders and name that folders whatever you like. The first letter of the name of each folder stands for a key that you need to press to play music from that folder. Examples included.
+3. Run `play.exe`, don't mind Windows Defender. It dislikes autohotkeys scripts. 
+4. Press `Alt` and the chosen Key for music
+
+<details>
+<summary>If you want to install and setup foobar on your own</summary>
+
+1. Download [DungeonDJ without foobar](https://github.com/seorgiy/dungeon-dj/releases), unzip it
 2. Download [foobar2000](https://www.foobar2000.org/download)
-3. Install foobar to `/foobar2000` folder or specify path to .exe in the `config.ini` file. Portable installation is completly fine, but don't forget to set some  [settings](#foobar-settings)
+3. Install foobar to `DungeonDJ/foobar2000` folder or specify path to .exe in the `config.ini` file. 
 4. Put your music in the `/music` subfolders and name that folders whatever you like. The first letter of the name of each folder stands for a key that you need to press to play music from that folder. Examples included.
 5. Run `play.exe`, don't mind Windows Defender. It dislikes autohotkeys scripts. 
 6. Press `Alt` and the chosen Key for music
 7. **Optional.** Install foobar youtube-component if you want to add music from the Youtube videos.
 8. **Optional.** Check out recommended [foobar settings](#foobar-settings) for the best experience.
+</details>
+
+## Additional hotkeys
+
+Alt + 1 → play/pause  
+Alt + 2 → play next track in the current playlist  
+Alt + 3 → show/hide player  
+Alt + Y → show youtube video search (only if you downloaded foobar with DungeonDJ. Otherwise, you need to enable this hotkey in settings)
 
 ## foobar settings
+> **Note**
+> If you downloaded foobar with DungeonDJ — this settings already apllied.
 
 * File → Preferences → Playback → Output → Fading → check «Enable smooth seeking...» & set «Manual track change» slider to whatever your like, 4000ms recommended. That makes music changes like in videogames, so nice and smooth 🤙
 * File → Preferences → Display → Default User Interface → Background and Notifications → turn on «Minimize hides, close exits» if you want to minimize foobar
@@ -29,12 +49,12 @@ For Windows use only.
 * File → Preferences → Keyboard Shortcuts → Add new → set hotkey for View/Youtube Source/Search on Site action if you want to fast access to this brilliant function
 
 ## Music from Youtube
-foobar is such a great thing due to possibility of mixing local files and youtube videos in one playlist. Lets do this.
+foobar is such a great thing due to possibility of mixing local files and youtube videos in one playlist. Give it a try!
 
 1. Download [component](https://fy.3dyd.com/download/). For me version `foo_youtube_3.9_beta2` works fine.
 2. Open foobar → File →  Preferences → Components → Install → dowloaded file.
 
-Now you go View → Youtube Source → Search on Site → type something like «ambient music» → add it to currrent playlist with smooth fade in effect!
+Now you go View → Youtube Source → Search on Site → type something like «ambient music» → click it to start music with smooth fade in effect!  
 But even on top of that you may **save youtube video link as a file**! 
 Just right click on video → foobar2000 → File Operations → Copy to → choose your DungeonDJ music subfolder. Name track as you want but you need to add `.foo_youtube` extension in the end.
 
@@ -57,4 +77,9 @@ Actually I made it for my custom keyboard so you may also like this idea. With s
 ![image](https://user-images.githubusercontent.com/44596276/232434304-dbe02390-e56d-4983-bab5-0b2229a4dff7.png)
 
 ## Credits
-[Pleasant Notify library](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=6056)
+
+These people are real titans, on whose shoulders I modestly stand.   
+[foobar2000](https://www.foobar2000.org/) developers   
+[Autohotkey](https://www.autohotkey.com/foundation/) developers    
+
+Also authors of great [Pleasant Notify library](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=6056) 
