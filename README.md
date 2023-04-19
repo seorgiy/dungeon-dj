@@ -33,11 +33,11 @@ For Windows use only.
 
 ## Additional hotkeys
 
-Alt + 1 → play/pause  
-Alt + 2 → play next track in the current playlist  
-Alt + 3 → show/hide player  
-Alt + 4 → show a cheat sheet with keys and music folders  
-Alt + Y → show youtube video search (only if you downloaded foobar with DungeonDJ. Otherwise, you need to enable this hotkey in settings)
+`Alt + 1` → play/pause  
+`Alt + 2` → play next track in the current playlist  
+`Alt + 3` → show/hide player  
+`Alt + 4` → show a cheat sheet with keys and music folders  
+`Alt + Y` → show youtube video search (only if you downloaded foobar with DungeonDJ. Otherwise, you need to enable this hotkey in settings)
 
 ## foobar settings
 > **Note**
